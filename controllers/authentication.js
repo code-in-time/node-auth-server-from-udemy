@@ -7,6 +7,12 @@ function tockenForUser(user) {
     return jwt.encode({sub: user.id, iat: timestamp}, config.secret);
 }
 
+exports.signin = function(req, res, next) {
+    // give token
+    //res.send({token:tokenForUser(req.user)});
+
+}
+
 
 exports.signup = function(req, res, next) {
     //res.send({ sucess: 'true'});
@@ -46,14 +52,4 @@ exports.signup = function(req, res, next) {
         })
         
     });
-
-
-
-
-
-
-
-
-
-
 }
