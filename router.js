@@ -8,6 +8,7 @@ const requireSignin = passport.authenticate('local', {session: false});
 
 module.exports = function(app) {
 
+    // Note: remember to add a authorization token into the headers
     app.get('/',requireAuth, function(req, res) {
         res.send({hi:'there'});
 
