@@ -6,6 +6,7 @@ const app = express();
 const router = require('./router');
 const mongoose = require('mongoose');
 
+
 // DB Settup
 // NOTE the address of the dev server
 mongoose.connect('mongodb://localhost:27017/auth');
