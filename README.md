@@ -7,14 +7,14 @@
 - post man <https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo?hl=en-GB>
 - <https://jwt.io/>
 
-### NOTES
-
-- start server `node index.js` or `npm run dev`
-
 ### MONGO
 
 - sudo service mongod start
 - mongo --host 127.0.0.1:27017
+
+### NOTES
+
+- start server `node index.js` or `npm run dev`
 
 #### TODO
 
