@@ -24,4 +24,11 @@ In post man in chrome post this.
         "email": "test@ftrtrhgftredddddtertgghfhf.com",
         "password": "123"
     }
+
+    or
+
+{
+	"email": "test@hyrsddddsdssyfftrrrf.com",
+	"password": "123rsdsdrr"
+}    
 ```

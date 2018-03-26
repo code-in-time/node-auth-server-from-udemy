@@ -10,7 +10,7 @@ module.exports = function(app) {
 
     // Note: remember to add a authorization token into the headers
     app.get('/',requireAuth, function(req, res) {
-        res.send({hi:'there'});
+        res.send({message:'Super secret code is ABC123'});
 
     });
 
